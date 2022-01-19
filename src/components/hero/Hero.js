@@ -21,12 +21,12 @@ const Hero = () => {
             setStateMem(val);
         }else if(targ.includes('color')){
             setStateCol(val);
-            if(val == 'Silver'){
+            if(val === 'Silver'){
                 setStateColBtn(0);
-            }else if(val == 'Gold'){
+            }else if(val === 'Gold'){
                 setStateColBtn(1);
 
-            }else if(val == 'Grey'){
+            }else if(val === 'Grey'){
                 setStateColBtn(2);
             }
         }
